@@ -1,0 +1,9 @@
+.container {
+    width: calc(100% + 0px);
+    min-height: 300px;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+}

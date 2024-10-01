@@ -1,0 +1,84 @@
+.wrapper {
+    --border-radius-btn: 92px;
+    --search-height: 46px;
+    --search-button-width: 52px;
+    --search-after-height: calc(var(--search-height) / 2);
+    height: var(--default-layout-header-height);
+    width: calc(100% + 0px);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+    padding-left: 16px;
+    padding-right: 24px;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+}
+.search {
+    width: 500px;
+    height: var(--search-height);
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: var(--border-radius-btn);
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid transparent;
+    position: relative;
+    input {
+        flex: 1;
+        color: #000;
+        font-size: 1.6rem;
+        padding: 12px 0;
+        background-color: transparent;
+        caret-color: rgba(254, 44, 85, 1);
+    }
+
+    input:not(:placeholder-shown) ~ .search-btn {
+        color: rgba(22, 24, 35, 1);
+    }
+
+    &:focus-within {
+        border-color: rgba(22, 24, 35, 0.2);
+    }
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.2);
+        .search-btn {
+            color: rgba(22, 24, 35, 1);
+            background-color: rgba(22, 24, 35, 0.06);
+        }
+    }
+}
+.clear,
+.loading {
+    position: absolute;
+    right: calc(var(--search-button-width) + 16px);
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(22, 24, 35, 0.34);
+}
+.search-btn {
+    width: var(--search-button-width);
+    height: 100%;
+    border-top-right-radius: var(--border-radius-btn);
+    border-bottom-right-radius: var(--border-radius-btn);
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    color: rgba(22, 24, 35, 0.34);
+
+    &::before {
+        content: '';
+        width: 1px;
+        height: var(--search-after-height);
+        background-color: rgba(22, 24, 35, 0.12);
+        position: absolute;
+        top: calc(var(--search-after-height) / 2);
+        left: 0;
+    }
+}

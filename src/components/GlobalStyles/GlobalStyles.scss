@@ -3,17 +3,33 @@
 
 :root {
     --primary-color__background: #121212;
+    --default-layout-header-height: 60px;
+    --default-layout-width: 100vw;
+    --text-color: #333;
 }
 
 html {
+   
     font-size: 62.5%;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.6rem;
+}
+
+button,input, [tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
