@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Clone-Tiktok-UI/static/css/main.f03fc70a.css",
-    "main.js": "/Clone-Tiktok-UI/static/js/main.31f3f78e.js",
+    "main.js": "/Clone-Tiktok-UI/static/js/main.927f5646.js",
     "static/js/453.f781e9ad.chunk.js": "/Clone-Tiktok-UI/static/js/453.f781e9ad.chunk.js",
     "static/media/logo.svg": "/Clone-Tiktok-UI/static/media/logo.a4628a4f0ae4d3671fc6a960c700b6e3.svg",
     "index.html": "/Clone-Tiktok-UI/index.html",
     "main.f03fc70a.css.map": "/Clone-Tiktok-UI/static/css/main.f03fc70a.css.map",
-    "main.31f3f78e.js.map": "/Clone-Tiktok-UI/static/js/main.31f3f78e.js.map",
+    "main.927f5646.js.map": "/Clone-Tiktok-UI/static/js/main.927f5646.js.map",
     "453.f781e9ad.chunk.js.map": "/Clone-Tiktok-UI/static/js/453.f781e9ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f03fc70a.css",
-    "static/js/main.31f3f78e.js"
+    "static/js/main.927f5646.js"
   ]
 }
