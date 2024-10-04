@@ -7,11 +7,11 @@ import Upload from '~/pages/Upload';
 import Search from '~/pages/Seach';
 
 const publicRoutes = [
-    { path: '/', component: Home },
-    { path: '/following', component: Following },
-    { path: '/profile', component: Profile },
-    { path: '/upload', component: Upload, layout: HeaderOnly },
-    { path: '/search', component: Search, layout: null },
+    { path: '/Clone-Tiktok-UI/', component: Home },
+    { path: '/Clone-Tiktok-UI/following', component: Following },
+    { path: '/Clone-Tiktok-UI/Clone-Tiktok-UI/profile', component: Profile },
+    { path: '/Clone-Tiktok-UI/upload', component: Upload, layout: HeaderOnly },
+    { path: '/Clone-Tiktok-UI/search', component: Search, layout: null },
 ];
 
 const privateRoutes = [];
